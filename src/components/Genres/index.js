@@ -10,7 +10,7 @@ const Genres = () => {
                             <h1 className="Genres--text__first">Genres</h1>
                         <div className="Genres--text__nav">
                             <NavLink to={"/All"}>
-                                View all
+                                View all books
                             </NavLink>
                             <NavLink to={"/Box"}>
                                Box
