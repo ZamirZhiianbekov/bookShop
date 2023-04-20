@@ -1,0 +1,39 @@
+#Genres{
+padding: 120px;
+  font-family: 'Public Sans', sans-serif;
+
+  .Genres{
+    &--text{
+       display: flex;
+      justify-content: space-between;
+      &__first{
+        font-weight: 500;
+        font-size: 50px;
+        color: #19272E;
+
+      }
+      &__desc{
+        a{
+         font-size: 20px;
+          color: #818EEA;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+
+      }
+    }
+    &--slider{
+      padding: 24px;
+      gap: 24px;
+
+      width: 148px;
+      height: 194px;
+
+      background: #F5F5F5;
+      border: 1px solid #E1E1E1;
+      border-radius: 16px;
+
+    }
+  }
+}
