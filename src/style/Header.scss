@@ -1,0 +1,41 @@
+#header{
+  box-shadow: 3px 2px 10px grey;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    &--nav {
+      display: flex;
+
+      a {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        color: #19272E;
+        text-decoration: none;
+        margin: 0 15px;
+      }
+      .active {
+        font-weight: 600;
+        font-size: 17px;
+
+        color: #818EEA;
+
+      }
+
+    }
+
+    &--input {
+      &__search {
+        color: #19272E;
+        font-size: 17px;
+        margin: 0 15px;
+      }
+      &__bags {
+        font-size: 18px;
+        color: #19272E;
+      }
+    }
+  }
+}
