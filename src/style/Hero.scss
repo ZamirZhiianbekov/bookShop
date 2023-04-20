@@ -1,0 +1,21 @@
+#Hero {
+  padding: 250px 0;
+  background: url("../img/Main image.png") no-repeat center;
+  background-size: cover;
+
+  .Hero {
+    text-align: center;
+   &-tittle{
+     margin-bottom: 16px;
+     font-family: 'Public Sans',sans-serif;
+     font-weight: 700;
+     font-size: 48px;
+     color: white;
+   }
+    &-text{
+      font-family: 'Public Sans',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+}

@@ -5,13 +5,14 @@ import {RiShoppingBagLine} from "react-icons/ri";
 import {NavLink} from "react-router-dom";
 
 
+
 const Header = () => {
     return (
         <div id="header">
             <div className="container">
                 <div className="header">
                     <div className="header--nav">
-                        <NavLink to={"/book"}>
+                        <NavLink to={"/"}>
                             Bookshop
                           </NavLink>
                         <NavLink to={"/genres"}>
