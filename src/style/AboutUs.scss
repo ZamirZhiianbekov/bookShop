@@ -1,0 +1,25 @@
+#AboutUs{
+  font-family: 'Public Sans', sans-serif;
+
+  .AboutUs{
+
+    &--us{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+    }
+    &--lorem{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__page{
+        padding: 0 0 0 50px;
+        font-size: 15px;
+        line-height: 160%;
+        color: #19272E;
+      }
+    }
+  }
+}
