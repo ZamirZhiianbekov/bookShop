@@ -3,6 +3,7 @@ import '../../style/Header.scss'
 import {BsSearch} from "react-icons/bs";
 import {RiShoppingBagLine} from "react-icons/ri";
 import {NavLink} from "react-router-dom";
+import Genres from "../Genres";
 
 
 
