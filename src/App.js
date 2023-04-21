@@ -22,23 +22,12 @@ function App() {
                 <Route path={'/newBooks'} element={<NewBook/>}/>
                 <Route path={'/Books'} element={<Books/>}/>
                 <Route path={'/aboutUs'} element={<AboutUs/>}/>
-
                 <Route path={'/all'} element={<AllBook/>}/>
                 <Route path={'/Box'} element={<Box/>}/>
                 <Route path={'/Cart'} element={<Cart/>}/>
             </Routes>
-
             <AboutUs/>
              <Footer/>
-             <Footer/>
-
-                <Route path={'/All'} element={<AllBook/>}/>
-                <Route path={'/Box'} element={<Box/>}/>
-                <Route path={'/Cart'} element={<Cart/>}/>
-            </Routes>
-            <Genres/>
-            <Footer/>
-
         </div>
     );
 }
