@@ -52,3 +52,38 @@
     }
   }
 }
+
+
+
+    .Genres {
+
+      &--text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+
+
+        &__first {
+          margin-left: 80px;
+          font-weight: 500;
+          font-size: 40px;
+          height: 58px;
+        }
+
+        &__nav {
+          a {
+            color: #818EEA;
+            font-weight: 500;
+            font-size: 18px;
+          }
+
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+      }
+    }
+  }
+
