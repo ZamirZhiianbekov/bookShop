@@ -1,0 +1,139 @@
+#card {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.card {
+  margin: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+
+  img {
+    margin-right: 50px;
+  }
+
+  .card--texts {
+
+    .p1 {
+      font-family: 'Public Sans', sans-serif;
+      font-style: normal;
+      color: #19272E;
+      opacity: 0.7;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 20px 0 50px 0;
+    }
+
+    .p2 {
+      font-family: 'Public Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #19272E;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .p3 {
+      font-family: 'Public Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 26px;
+      letter-spacing: -0.3px;
+      color: #818EEA;
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 20px 0;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: space-between;
+      width:500px;
+
+
+      button {
+        font-size: 16px;
+        font-weight: 600;
+        width: 80%;
+        height: 60px;
+        background: #818EEA;
+        border-radius: 8px;
+        border: 1px solid #818EEA;
+        color: #FFFFFF;
+      }
+
+      .number {
+        justify-content: space-around;
+        display: flex;
+        border: 1px solid #818EEA;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 20px;
+        color: #818EEA;
+        width: 20%;
+
+        .title {
+          text-align: center;
+        }
+        .text{
+          color: black;
+        }
+      }
+    }
+  }
+
+  .card--texts__title {
+    .lorem{
+      width: 340px;
+      height: 100px;
+      font-family: 'Public Sans',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #19272E;
+      margin-bottom: 10px;
+    }
+    .title {
+      display: flex;
+      text-align: start;
+
+      .icons {
+        font-size: 22px;
+        display: flex;
+        width: 60px;
+        justify-content: space-between;
+        font-weight: 800;
+      }
+    }
+
+    .h1 {
+      width: 300px;
+      height: 44px;
+      font-family: 'Public Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 120%;
+      color: #19272E;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-top: 5px;
+    }
+
+    h2 a {
+      font-size: 20px;
+      color: red;
+
+    }
+  }
+}

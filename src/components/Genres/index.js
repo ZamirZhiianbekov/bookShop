@@ -1,6 +1,12 @@
 import React from 'react';
 import '../../style/Geners.scss'
 import {NavLink} from "react-router-dom";
+
+import Header from "../Header";
+const Genres = () => {
+    return (
+
+
 import  Sci from "../../img/image 8.png"
 import  kids from "../../img/image 8 (1).png"
 import  Psychology from "../../img/image 8 (2).png"
@@ -12,6 +18,7 @@ import NewBook from "../NewBooks";
 const Genres = () => {
     return (
         <>
+
         <div id='Genres'>
             <div className="container">
                 <div className="Genres">
@@ -19,7 +26,10 @@ const Genres = () => {
                             <h1 className="Genres--text__first">Genres</h1>
                         <div className="Genres--text__nav">
                             <NavLink to={"/All"}>
+                                View all books
+
                                 View all
+
                             </NavLink>
                             <NavLink to={"/Box"}>
                                Box
@@ -27,6 +37,7 @@ const Genres = () => {
                             <NavLink to={"/Cart"}>
                                 Cart
                             </NavLink>
+
                         </div>
                     </div>
                     <div className="Genres--categories">
@@ -53,6 +64,7 @@ const Genres = () => {
                         <div className="Genres--categories__task">
                             <img src={Finance} alt=""/>
                             <h4 className="Genres--categories__task--name">Finance</h4>
+
                         </div>
                     </div>
                 </div>

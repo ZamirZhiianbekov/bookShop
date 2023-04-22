@@ -1,3 +1,9 @@
+import React from 'react';
+import "../../page/AllBook/style.scss"
+const AllBook = () => {
+    return (
+        <div>
+
 import React, {useState} from 'react';
 import "../../page/AllBook/style.scss"
 import BookImg2 from "../../../img/2img.png"
@@ -215,6 +221,7 @@ const AllBook = () => {
 
                 </div>
             </div>
+
         </div>
     );
 };

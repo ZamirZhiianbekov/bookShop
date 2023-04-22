@@ -8,12 +8,17 @@
     justify-content: space-between;
     padding: 32px 0;
 
+
     &--nav {
       display: flex;
 
       a {
         font-weight: 500;
+
+        font-size: 16px;
+
         font-size: 18px;
+
         line-height: 20px;
         color: #19272E;
         text-decoration: none;
@@ -36,6 +41,11 @@
 
 
       &__search {
+
+        color: #19272E;
+        font-size: 22px;
+        margin: 0 15px;
+
         width: 2rem;
         height: 2rem;
         overflow: hidden;
@@ -59,9 +69,11 @@
              color:var(--color);
              cursor: text;
              background: transparent url('../img/Vector.svg')no-repeat ;
+
       }
 
       &__bags {
+
         margin-left: 15px;
         font-size: 25px;
         color: #19272E;
