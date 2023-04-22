@@ -7,9 +7,11 @@ import  Psychology from "../../img/image 8 (2).png"
 import  Roman from "../../img/image 8 (3).png"
 import  Detective from "../../img/image 8 (4).png"
 import  Finance from "../../img/image 8 (5).png"
+import NewBook from "../NewBooks";
 
 const Genres = () => {
     return (
+        <>
         <div id='Genres'>
             <div className="container">
                 <div className="Genres">
@@ -56,6 +58,8 @@ const Genres = () => {
                 </div>
             </div>
         </div>
+            <NewBook/>
+        </>
     );
 };
 
