@@ -1,3 +1,4 @@
+
 import React from "react";
 import pro1 from "../../../img/Product Image.svg"
 import "./style.scss"
@@ -44,6 +45,16 @@ const Box = () => {
             </div>
 
         </>
+
+import React from 'react';
+import "../Box/style.scss"
+
+const Box = () => {
+    return (
+        <div>
+
+        </div>
+
     );
 };
 

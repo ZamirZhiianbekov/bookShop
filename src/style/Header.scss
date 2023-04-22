@@ -1,4 +1,4 @@
-#header{
+#header {
   box-shadow: 0 0 14px grey;
   margin-bottom: 40px;
 
@@ -7,17 +7,24 @@
     align-items: center;
     justify-content: space-between;
     padding: 32px 0;
+
+
     &--nav {
       display: flex;
 
       a {
         font-weight: 500;
+
         font-size: 16px;
+
+        font-size: 18px;
+
         line-height: 20px;
         color: #19272E;
         text-decoration: none;
-        margin: 0 15px;
+        margin: 0 25px;
       }
+
       .active {
         font-weight: 600;
         font-size: 17px;
@@ -28,13 +35,46 @@
 
     }
 
-    &--input {
+    &--inputs {
+      display: flex;
+      justify-content: center;
+
+
       &__search {
+
         color: #19272E;
         font-size: 22px;
         margin: 0 15px;
+
+        width: 2rem;
+        height: 2rem;
+        overflow: hidden;
+        border: 1px solid var(--colorInactive);
+        border-radius: 2rem;
+        background: transparent url("../img/Vector.svg") no-repeat center;
+        background-size: 20px;
+        color: transparent;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.5s;
+
+        }
+      &__search:focus{
+             width: 15rem;
+             padding-right: 1rem;
+             padding-left: 3rem;
+             border-radius: 10px;
+             outline: none;
+             background-size: 10px;
+             color:var(--color);
+             cursor: text;
+             background: transparent url('../img/Vector.svg')no-repeat ;
+
       }
+
       &__bags {
+
+        margin-left: 15px;
         font-size: 25px;
         color: #19272E;
       }

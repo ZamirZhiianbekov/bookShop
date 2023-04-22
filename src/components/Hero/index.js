@@ -12,9 +12,16 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+
             <Genres/>
         </>
     );
+
+    <Genres />
+        </>
+
+);
+
 };
 
 export default Hero;

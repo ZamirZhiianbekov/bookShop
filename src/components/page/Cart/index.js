@@ -89,6 +89,11 @@ const Cart = () => {
                     </div>
                 </div>
             </div>
+
+const Cart = () => {
+    return (
+        <div>
+
         </div>
     );
 };
