@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../style/Geners.scss'
 import {NavLink} from "react-router-dom";
+import Header from "../Header";
 const Genres = () => {
     return (
+
         <div id='Genres'>
             <div className="container">
                 <div className="Genres">

@@ -1,7 +1,9 @@
 import React from 'react';
 import '../../style/Hero.scss'
+import Genres from "../Genres";
 const Hero = () => {
     return (
+        <>
         <div id="Hero">
             <div className="container">
                 <div className="Hero">
@@ -10,6 +12,8 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+            <Genres/>
+        </>
     );
 };
 
