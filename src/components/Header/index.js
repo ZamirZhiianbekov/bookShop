@@ -1,9 +1,8 @@
 import React from 'react';
 import '../../style/Header.scss'
-import {BsSearch} from "react-icons/bs";
 import {RiShoppingBagLine} from "react-icons/ri";
 import {NavLink} from "react-router-dom";
-import Genres from "../Genres";
+
 
 
 
@@ -30,10 +29,9 @@ const Header = () => {
                         </NavLink>
 
                     </div>
-                    <div className="header--input">
-
-                        <BsSearch className="header--input__search"/>
-                        <RiShoppingBagLine className="header--input__bags"/>
+                    <div className="header--inputs">
+                        <input  className="header--inputs__search" type="text" placeholder=""/>
+                        <RiShoppingBagLine className="header--inputs__bags"/>
                     </div>
                 </div>
             </div>
