@@ -12,7 +12,6 @@ import Box from "./components/page/Box"
 import Cart from "./components/page/Cart"
 
 
-
 function App() {
     return (
         <div>
@@ -27,10 +26,7 @@ function App() {
                 <Route path={'/Box'} element={<Box/>}/>
                 <Route path={'/Cart'} element={<Cart/>}/>
             </Routes>
-            <Books/>
-            <AboutUs/>
-
-             <Footer/>
+            <Footer/>
         </div>
     );
 }

@@ -1,0 +1,81 @@
+#NewBook {
+  font-family: 'Public Sans', sans-serif;
+
+  .NewBook {
+    &--name {
+      margin-top: 80px;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+      color: #19272E;
+    }
+
+    &--author {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__first {
+        margin-top: 90px;
+
+        &--tittle {
+          width: 200px;
+          font-size: 20px;
+          line-height: 120%;
+          color: #19272E;
+        }
+
+        &--space {
+          padding: 10px 0;
+          color: #19272E;
+          opacity: 0.7;
+          font-size: 16px;
+          line-height: 140%;
+        }
+      }
+
+      &__second {
+        //top:0;
+        //left: 0;
+        //right: 0;
+        //bottom: 0;
+        margin: 0 30px;
+
+        &--tittle {
+          width: 200px;
+          font-size: 20px;
+          line-height: 120%;
+          color: #19272E;
+        }
+
+        &--space {
+          padding: 10px 0;
+          color: #19272E;
+          opacity: 0.7;
+          font-size: 16px;
+          line-height: 140%;
+        }
+      }
+
+      &__third {
+        margin-top: 90px;
+
+        &--tittle {
+          width: 200px;
+          font-size: 20px;
+          line-height: 120%;
+          color: #19272E;
+        }
+
+        &--space {
+          padding: 10px 0;
+          color: #19272E;
+          opacity: 0.7;
+          font-size: 16px;
+          line-height: 140%;
+        }
+      }
+    }
+
+  }
+}

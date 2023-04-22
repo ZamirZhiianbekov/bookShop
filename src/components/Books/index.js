@@ -6,9 +6,11 @@ import pub from "../../img/eee.png"
 import Rick from "../../img/eeee.png"
 import Neil from "../../img/eb.png"
 import nm from "../../img/bn.png"
+import AboutUs from "../AboutUs";
 
 const Books = () => {
     return (
+        <>
         <div id="Books">
             <div className="container">
                 <div className="Books">
@@ -51,6 +53,8 @@ const Books = () => {
                 </div>
             </div>
         </div>
+            <AboutUs/>
+        </>
     );
 };
 
