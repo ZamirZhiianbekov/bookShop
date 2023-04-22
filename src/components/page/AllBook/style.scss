@@ -1,0 +1,50 @@
+#allBooks {
+  .allBooks {
+    &--name {
+      h1 {
+        font-family: 'Public Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        color: #19272E;
+      }
+      h5 {
+        font-family: 'Public Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #19272E;
+        padding: 10px 0 50px 0;
+      }
+    }
+
+    &--tabs {
+      display: flex;
+      justify-content: space-between;
+
+      &__right {
+        &--input {
+          input {
+            margin: 30px 4px 0 0;
+            border-radius: 70%;
+            font-size: 20px;
+            line-height: 20px;
+          }
+          label{
+            font-family: 'Public Sans',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+          }
+        }
+      }
+
+      &--left {
+
+      }
+    }
+  }
+}
