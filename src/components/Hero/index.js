@@ -17,11 +17,6 @@ const Hero = () => {
         </>
     );
 
-    <Genres />
-        </>
-
-);
-
 };
 
 export default Hero;

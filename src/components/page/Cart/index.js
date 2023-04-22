@@ -3,6 +3,7 @@ import "../../page/Cart/style.scss"
 import pro1 from "../../../img/Product Image.svg"
 import pro2 from "../../../img/Product Image (1).svg"
 import pro3 from "../../../img/Product Image (2).svg"
+import {NavLink} from "react-router-dom";
 const Cart = () => {
     return (
         <div id="card">
@@ -85,15 +86,13 @@ const Cart = () => {
                             <h3 className="orTitle">Total</h3>
                             <h3 className="h3">$188</h3>
                         </div>
-                        <button className="btn">Continue to checkout</button>
+                            <button className="btn">Continue to checkout</button>
+
+
+
                     </div>
                 </div>
             </div>
-
-const Cart = () => {
-    return (
-        <div>
-
         </div>
     );
 };
