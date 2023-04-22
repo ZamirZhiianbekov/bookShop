@@ -48,7 +48,7 @@ const Books = () => {
                             <img src={nm} alt=""/>
                             <h5 className="Books--categories__task--name">HARRY POTTER</h5>
                             <h5 className="Books--categories__task--second">by J.K. Rowling</h5>
-                        </div>
+                        </div >
                     </div>
                 </div>
             </div>
