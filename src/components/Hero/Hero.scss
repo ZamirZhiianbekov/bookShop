@@ -1,10 +1,12 @@
 #Hero {
-  padding: 250px 0;
-  background: url("../img/Main image.png") no-repeat center;
-  background-size: cover;
 
+padding: 100px 0;
   .Hero {
+    padding: 250px 0;
+    background: url("../../img/Main image.png") no-repeat center/cover;
     text-align: center;
+    margin-top: 33px;
+
    &-tittle{
      margin-bottom: 16px;
      font-family: 'Public Sans',sans-serif;

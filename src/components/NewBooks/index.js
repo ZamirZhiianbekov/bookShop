@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/NewBooks.scss'
+import './NewBooks.scss'
 import shop from "../../img/image 6.png"
 import pro from "../../img/image 7.png"
 import max from "../../img/image 5.png"

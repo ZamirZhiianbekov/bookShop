@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/AboutUs.scss'
+import './AboutUs.scss'
 import Star from "../../img/image 9.png"
 const AboutUs = () => {
     return (

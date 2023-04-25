@@ -123,7 +123,7 @@ const AllBook = () => {
                                         flexDirection: "column",
                                         justifyContent: "start"
                                     }}><h2>THE CREATIVE ACT</h2>
-                                        <p>by Rick Rubin with Neil Strauss</p>
+                                        <p>by Rick Rubin with Nx`eil Strauss</p>
                                     </div>
 
                                 </div>

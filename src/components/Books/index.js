@@ -1,12 +1,13 @@
 import React from 'react';
-import '../../style/Books.scss'
-import {NavLink} from "react-router-dom";
+import './Books.scss'
+import {Link, NavLink} from "react-router-dom";
 import the from "../../img/ee.png"
 import pub from "../../img/eee.png"
 import Rick from "../../img/eeee.png"
 import Neil from "../../img/eb.png"
 import nm from "../../img/bn.png"
 import AboutUs from "../AboutUs";
+import {RiShoppingBagLine} from "react-icons/ri";
 
 const Books = () => {
     return (
@@ -17,9 +18,8 @@ const Books = () => {
                     <div className="Books--texts">
                         <h1 className="Books--texts__first">Books</h1>
                         <div className="Books--texts__nav">
-                            <NavLink to={"/All"}>
-                                View all
-                            </NavLink>
+                            <Link onClick={() => window.scroll(0,0)} to="/Box"> View all</Link>
+
 
                         </div>
                     </div>
