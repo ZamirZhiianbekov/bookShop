@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../style/Geners.scss'
-import {NavLink} from "react-router-dom";
+import './Geners.scss'
+import {Link, NavLink, useNavigate} from "react-router-dom";
 import  Sci from "../../img/image 8.png"
 import  kids from "../../img/image 8 (1).png"
 import  Psychology from "../../img/image 8 (2).png"
@@ -10,6 +10,7 @@ import  Finance from "../../img/image 8 (5).png"
 import NewBook from "../NewBooks";
 
 const Genres = () => {
+    const navigate = useNavigate()
     return (
         <>
         <div id='Genres'>
@@ -18,13 +19,7 @@ const Genres = () => {
                     <div className="Genres--text">
                             <h1 className="Genres--text__first">Genres</h1>
                         <div className="Genres--text__nav">
-                            <NavLink to={"/All"}>
-
-                                View all
-
-                            </NavLink>
-
-
+                            <Link onClick={() => window.scroll(0,0)} to="/All"> View all</Link>
 
                         </div>
                     </div>

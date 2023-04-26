@@ -3,7 +3,7 @@ import pro1 from "../../../img/Product Image.svg"
 import "./style.scss"
 import {AiOutlineHeart} from "react-icons/ai";
 import {TbVectorTriangle} from "react-icons/tb";
-import {NavLink} from "react-router-dom";
+
 
 
 
@@ -32,10 +32,7 @@ const Box = () => {
                                 <p className="p3">$99</p>
                             </div>
                             <div className="icon">
-                                <NavLink to={"/Cart"}>
                                     <button>Add to Cart </button>
-                                </NavLink>
-
                                 <div className="number">
                                     <h1 className="title">-</h1>
                                     <h3 className="text">1</h3>

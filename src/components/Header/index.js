@@ -1,12 +1,16 @@
-import React from 'react';
-import '../../style/Header.scss'
+import React, {useState} from 'react';
+import './Header.scss'
 import {RiShoppingBagLine} from "react-icons/ri";
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
+import focs from "../../img/Vector.svg"
+import { HiOutlineSearch } from "react-icons/hi";
 
 
 
 
 const Header = () => {
+    const [click, setClick] = useState(false)
+    console.log(click)
     return (
         <div id="header">
             <div className="container">
@@ -30,8 +34,32 @@ const Header = () => {
 
                     </div>
                     <div className="header--inputs">
-                        <input  className="header--inputs__search" type="text" placeholder=""/>
-                        <RiShoppingBagLine className="header--inputs__bags"/>
+                        <div className="header--inputs__search" style={{
+                        }}>
+                            <HiOutlineSearch className="icon" onClick={() => setClick(!click)} style={{
+                            position: "absolute",
+                                margin: "0 5px",
+                                cursor: "pointer"
+                            }
+                            }/>
+                            <input type="search" placeholder="search" style={{
+                              width: click ? "200px": "",
+                                height: click ? "30px" : "",
+                                border: "",
+                                fontSize: "17px",
+                                borderRadius: "12px",
+                                boxShadow: "2px 3px 6px gray",
+                                background : "#f5f2f2",
+                                paddingLeft: click ? "30px" : ""
+
+
+
+                            }
+                            }/>
+                        </div>
+                        <Link onClick={() => window.scroll(0,0)} to="/Cart"> <RiShoppingBagLine className="header--inputs__bags"/></Link>
+
+
                     </div>
                 </div>
             </div>
