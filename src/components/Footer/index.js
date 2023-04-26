@@ -8,8 +8,8 @@ const Footer = () => {
                 <div className="footer">
                     <div className="footer--tittle">
                         <div className="footer--tittle__email">
-                            <h1>Sign up for our newsletter</h1>
-                            <p>Be the first to know about our special offers, news, and updates.</p>
+                            <h1>Sign up for our great amazing really amazing  newsletter</h1>
+                            <p>Be the first to know about our special offers, news, and updates .</p>
                             <input type="text" placeholder="Email Address"/>
                             <button>Sign Up</button>
                         </div>
