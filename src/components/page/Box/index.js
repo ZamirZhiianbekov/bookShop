@@ -3,7 +3,7 @@ import pro1 from "../../../img/Product Image.svg"
 import "./style.scss"
 import {AiOutlineHeart} from "react-icons/ai";
 import {TbVectorTriangle} from "react-icons/tb";
-import {NavLink} from "react-router-dom";
+
 
 
 
